@@ -5,6 +5,10 @@ import buildspaceLogo from '../assets/buildspace-logo.png';
 
 const Home = () => {
   const [userInput, setUserInput] = useState('');
+  const onUserChangedText = (event) => {
+    console.log(event.target.value);
+    setUserInput(event.target.value);
+  };
   return (
     <div className="root">
       <div className="container">
@@ -13,7 +17,7 @@ const Home = () => {
             <h1>Summoning: Impure World Reincarnation</h1>
           </div>
           <div className="header-subtitle">
-            <h2>Write a message to Milton Erickson, ask him about anything</h2>
+            <h2>Write a message to Milton Hyland Erickson, ask him about anything</h2>
           </div>
         </div>
         {/* Add this code here*/}
