@@ -37,10 +37,10 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Summoning: Impure World Reincarnation (Edo Tensei)</h1>
+            <h1>Summoning: Impure World Reincarnation</h1>
           </div>
           <div className="header-subtitle">
-            <h2>Write a message to Milton Hyland Erickson, ask him about anything</h2>
+            <h2>Write a message to Milton Hyland Erickson (5 December 1901 – 25 March 1980), He was an American psychiatrist and psychologist specializing in medical hypnosis and family therapy. Ask him about anything</h2>
           </div>
         </div>
         {/* Add this code here*/}
