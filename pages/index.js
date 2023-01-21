@@ -40,7 +40,7 @@ const Home = () => {
             <h1>Summoning: Impure World Reincarnation</h1>
           </div>
           <div className="header-subtitle">
-            <h2>Write a message to Milton Hyland Erickson (5 December 1901 – 25 March 1980), He was an American psychiatrist and psychologist specializing in medical hypnosis and family therapy. Ask him about anything</h2>
+            <h2>Write a message to Milton Hyland Erickson (5 December 1901 – 25 March 1980), He was an American psychiatrist and psychologist specializing in medical hypnosis and family therapy.</h2>
           </div>
         </div>
         {/* Add this code here*/}
