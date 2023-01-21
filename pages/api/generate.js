@@ -1,10 +1,10 @@
-import { Configuration, OpenAIAPI } from 'openai';
+import { Configuration, OpenAIApi } from 'openai';
 
 const configuration = new Configuration({
   apiKey: process.env.OPENAI_API_KEY,
 });
 
-const openai = new OpenAIApi(confiuration);
+const openai = new OpenAIApi(configuration);
 const basePromptPrefix = "";
   // Run first prompt
   console.log('API: ${basePromptPrefix}${req.body.userInput}');
