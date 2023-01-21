@@ -40,7 +40,7 @@ const Home = () => {
             <h1>Summoning: Impure World Reincarnation</h1>
           </div>
           <div className="header-subtitle">
-            <h2><center>Write a message to Milton Hyland Erickson (5 December 1901 – 25 March 1980), He was an American psychiatrist and psychologist specializing in medical hypnosis and family therapy.</center></h2>
+            <h2><center>Write a message to Milton Hyland Erickson (5 December 1901 – 25 March 1980). He was an American psychiatrist and psychologist specializing in medical hypnosis and family therapy.</center></h2>
           </div>
         </div>
         {/* Add this code here*/}
@@ -52,7 +52,8 @@ const Home = () => {
             onChange={onUserChangedText}
           />
           <div className="prompt-buttons">
-            <a className={isGenerating ? 'generate-button loading' : 'generate-button'}
+            <a
+              className={isGenerating ? 'generate-button loading' : 'generate-button'}
               onClick={callGenerateEndpoint}
             >
               <div className="generate">
@@ -72,7 +73,7 @@ const Home = () => {
               <p>{apiOutput}</p>
             </div>
           </div>
-          )}
+        )}
         </div>
       </div>
       <div className="badge-container grow">
